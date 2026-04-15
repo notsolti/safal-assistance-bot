@@ -1,0 +1,15 @@
+{
+  "name": "safal-assistance-bot",
+  "version": "1.0.0",
+  "description": "Discord management bot for roles, channels, categories, permissions, messages, admin controls, and audit logs",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "deploy": "node src/deploy-commands.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
